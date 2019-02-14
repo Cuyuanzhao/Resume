@@ -1,0 +1,125 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.7in,top=0.3in,right=0.7in,bottom=0.3in]{geometry} % Document margins
+\usepackage{enumitem}
+\usepackage{geometry}
+ \usepackage{indentfirst} 
+\geometry{a4paper,left=1.5cm,right=1.5cm,top=1.5cm,bottom=1.5cm}
+\name{Jerry Zhao} 
+\address{(+1)470-985-4753 \quad \\ \quad cuyuanzhao@gmail.com }
+\address{2400 4th Ave, Seattle, WA, 98121} % Your phone number and email
+
+\begin{document}
+%--------------------------------------------------------
+%	Engineering Project
+%--------------------------------------------------------
+
+\begin{rSection}{Work Experience}
+
+
+	
+	
+		\begin{rSubsection}{Software Development Engineer{ \normalfont -  Amazon.com, Seattle}} {May 2017 - Present}{} {}
+		\setlength{\leftskip}{-1em}	
+		Design, implement, test and maintain scalable applications for supporting products management in more than 100 Amazon physical retail stores. Major achievements:\par
+	       \setlength{\leftskip}{0em}
+	       \item Developed an AWS Lambda service that enabled modularity in product management, which scaled span of control from 5 stores per manager to 30 stores and hence saved \$20k contract cost pre store per year.
+	        \item Led a team of 4 to develop an EC2 service to analyze the product configurations by monitoring database change, which reduced around 60\% incorrect product configurations per store.
+	        \item Leading the tech design for the next generation of product management system that is expected to scale to more store and more business types. This project is scoped to require 4 dev years.
+	\end{rSubsection}
+	
+	
+	
+
+	
+	
+	\begin{rSubsection}{Software Engineer Intern {\normalfont - AdeptDC.com, Atlanta}} {May  2016 - Aug 2016}
+		{} {}		
+		\item Built the RESTful Web service on AWS using Jersey framework and Apache Tomcat, which can handle http request and connect to MySQL database.
+		\item Developed the front end for displaying and monitoring Georgia Tech Data Center in graphical format by JavaScript, html5, and CSS3.
+	\end{rSubsection}
+	
+	
+		\begin{rSubsection}{Graduate Teacher Assistant {\normalfont -  Georgia Tech, Atlanta} }{May 2016 - Dec 2016}{} {}		
+
+    			\item Assisted the instruction for  course CS6505 \textit{Computability and Algorithms} and CS4641 \textit{Machine Learning}.
+			\item Collaborated with faculty to develop programs for running students' algorithm and  evaluating the performance.
+			\item Held office hours regularly to tutor students and graded students' assignments and examinations.
+		\end{rSubsection}	
+\end{rSection}
+
+\begin{rSection}{OTHER EXPERIENCE}
+
+	\begin{rSubsection}{Algorithm Stock-Trading System in Robinhood}{ Sep 2018 - Present}{}{}
+		\setlength{\parindent}{2em}
+                 \item Designed the stock-trading algorithm and implemented it in Python by utilize Robinhood private APIs.
+                 \item Achieved the dynamic visualization for the trading process, including buy/sell points, profits and other statistics.
+	\end{rSubsection}	
+
+	\begin{rSubsection}{Full Stack development for MySQL Database Application}{ May 2016 - Jul 2016}{}{}
+		\setlength{\parindent}{2em}
+                 \item Designed the EER diagram, information flow and relational schema diagram for the MySQL database.
+                 \item Developed a database application, GTMovie,  with a movie tickets ordering function in Java by JDBC API.
+	\end{rSubsection}	
+	
+	
+	\begin{rSubsection}{Recommendation system design and its web application} {Jan 2016 - Mar 2016}{}{}
+
+                 \item Built a predictive model using machine learning algorithms and achieved 90\% accuracy in cross validation when applied to Yelp  Challenge Dataset.
+                 \item Developed a simple web application for the restaurant recommendation system.
+	\end{rSubsection}	
+
+
+\end{rSection}
+
+%--------------------------------------------------------
+%	EDUCATION SECTION
+%--------------------------------------------------------
+\begin{rSection}{Education}
+{\bf Georgia Institute of Technology {\normalfont -  Atlanta, GA}} \hfill { Aug 2015 - May 2017} \\ 
+{Master Degree in Computational Science and Engineering} \hfill { GPA: 3.5/4.0}
+
+%Relevant courses: Advanced Algorithm, Database Design, High Performance Computing, Computer Network, System, Machine Learning, Data Analytics and Visualization, Regression, Statistical Method, Testing Hypotheses
+%
+
+{\bf Michigan State University {\normalfont -   East Lansing, MI}} \hfill { Jan 2014 - May 2014} \\ 
+{ Exchange student in Statistics and Mathematics} \hfill { GPA: 3.8/4.0}
+
+{\bf Xi'an Jiaotong University {\normalfont  -   Xi'an, China}} \hfill { Sep 2011 - Jul 2015} \\ 
+{ Bachelor Degree in Applied Mathematics} \hfill { GPA: 3.8/4.0, Top: 5\%}
+
+\end{rSection}
+
+
+
+\begin{rSection}{SKILLS}
+	Language: Java, C{\ttfamily ++}, Python, JavaScript, Ruby, R, SQL, HTML5/CSS3, Latex\\
+	Framework: Spring, Angular, JUnit, Webpack, Bower, Bootstrap, Jasmine, MapReduce \\
+	Database: DynamoDB, RedShift, S3, MySQL, SQLite\\
+	AWS:  Lambda, CloudFormation, CloudFront, Route53, CloudWatch, API Gateway, DynamoDB, S3, Redshift
+\end{rSection}
+
+
+\end{document}
